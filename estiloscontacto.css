@@ -1,0 +1,67 @@
+body{
+    background-color: #F6E4F6;
+    
+}
+.contenedor{
+    width: 75%;
+    height: 400px;
+    margin: auto;
+    background-color: #F6BDD1;
+    border-radius: 10px;
+    margin-top: 15%;
+}
+.contenedor .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h2{
+    color: #8B575C;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contenedor input[type="text"],
+.contenedor input[type="email"],
+.contenedor textarea{
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 25px;
+    margin: 20px 20px;
+    color: #a4a4a4;
+}
+
+.contenedor input[type="text"],
+.contenedor input[type="email"]{
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.contenedor textarea{
+    width: 80%;
+    height: 70px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 93%;
+    max-width: 93%  ;
+}
+
+.contenedor .boton{
+    margin: auto;
+    border-radius: 4px;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color:#F4F4F4;
+    background-color: #C98986;
+    transition: 1s;
+}
+.contenedor .boton:hover{
+    box-shadow: 10px 5px 5px#7C1616;
+}
+
+.contenedor .boton:focus{
+    background-color: aquamarine;
+    transform: scale(1.1) rotateY(360deg);
+}

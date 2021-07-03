@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+header .contenedor{
+    width: 100%;
+    max-width: 2000px;
+    height: 50px;
+    position: fixed;
+    background-color: #C98986;
+    z-index: 1;
+}
+
+header{
+    height: 50px;
+}
+
+.ropa h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 15px 0;
+}
+
+header .logo img{
+    width: 250px;
+    margin-top: 5px;
+    margin-left: 25px;
+    filter: brightness(50%);
+}
+
+header .menu{
+    font-size: 20px;
+    font-weight: 100;
+    margin: -32px 0;
+    margin-left: 70%;
+}
+header .menu a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    border-bottom: 2px solid transparent;
+}
+header .menu a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.inicio .foto{
+    padding:15px 0;
+    max-width: 90%;
+    margin: auto;
+}
+
+.inicio .foto img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main{
+    margin: auto;
+    width: 90%;
+    font-size: x-small;
+    margin-bottom: 20px;
+}
+
+.texto h2{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.texto p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.ropa{
+    background-color: #f2f2f2;
+}
+
+.ropa .contenedor-ropa{
+    padding: 40px 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ropa .contenedor-ropa .vestido{
+    width: 22%;
+    margin-bottom: 40px;    
+    box-shadow:10px 5px 5px #F6BDD1;
+    transition: 1.5s;
+    z-index: 0;
+}
+.ropa .contenedor-ropa .vestido:hover{
+    box-shadow:10px 5px 5px #C98986;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ropa .contenedor-ropa .vestido .thumb img{
+    width: 100%;
+    height: 500px;
+    vertical-align: top;
+    border-radius: 3px;
+    padding-bottom: 20px;
+}
+
+.ropa .contenedor-ropa .vestido .descripcion{
+    text-align: center;
+}
+.ropa .contenedor-ropa .vestido .descripcion h3{
+    font-size: 20px;
+    color: #3895ea;
+    margin-bottom: 10px;
+}
+
+.ropa .contenedor-ropa .vestido .descripcion p{
+    font-size: 20px;
+    color: #636363;
+    padding-bottom: 20px;
+}
+input[type="button"]{
+    background-color: #F6BDD1;
+    font-weight:600;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: #C98986;
+    color: #fff;
+}
+
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.boton input[type="submit"]{
+    background-color: #F6BDD1;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.boton input[type="submit"]:hover{
+    box-shadow: 10px 5px 5px #F6BDD1;
+    background-color: #C98986;
+    color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #F6E4F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.redes-sociales a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 50px; 
+    margin: 0 15px;
+    transition-duration: 1.5s;
+}
+footer .redes-sociales .Twitter{color: #1da1f2; }
+    footer .redes-sociales .Facebook{color: #3b5998; }
+    footer .redes-sociales .Youtube{color: #cd201f; }
+
+footer .redes-sociales .Twitter:hover{background-color: #1da1f2; color: #fff; border-radius: 10px; transform: scale(1.1) rotateY(360deg);}
+    footer .redes-sociales .Facebook:hover{background-color: #3b5998; color:#fff;
+    border-radius: 10px;transform: scale(1.1) rotateY(360deg);}
+    footer .redes-sociales .Youtube:hover{background-color: #cd201f; color: #fff;
+    border-radius: 10px;transform: scale(1.1) rotateY(360deg);}
