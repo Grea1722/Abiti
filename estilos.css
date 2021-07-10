@@ -99,6 +99,7 @@ header .menu a:hover{
     box-shadow:10px 5px 5px #F6BDD1;
     transition: 1.5s;
     z-index: 0;
+    border-radius: 10px;
 }
 .ropa .contenedor-ropa .vestido:hover{
     box-shadow:10px 5px 5px #C98986;
@@ -200,3 +201,92 @@ footer .redes-sociales .Twitter:hover{background-color: #1da1f2; color: #fff; bo
     border-radius: 10px;transform: scale(1.1) rotateY(360deg);}
     footer .redes-sociales .Youtube:hover{background-color: #cd201f; color: #fff;
     border-radius: 10px;transform: scale(1.1) rotateY(360deg);}
+
+    /*Media Querys*/
+    @media screen and (max-width:800px){
+        header .menu{
+            font-size: 14px;
+            margin-left: 50%;
+        }
+        .ropa .contenedor-ropa .vestido{
+            width: 23%;
+            margin-bottom: 40px;    
+            box-shadow:10px 5px 5px #F6BDD1;
+            transition: 1.5s;
+        }
+        .ropa .contenedor-ropa .vestido .thumb img{
+            width: 100%;
+            height: 300px;
+        }
+        .ropa .contenedor-ropa .vestido .descripcion h3,
+        .ropa .contenedor-ropa .vestido .descripcion p{
+            font-size: 15px;
+        }
+        .boton input[type="submit"]{
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px 25px;
+        }
+    }
+    @media screen and (max-width:500px){
+        header .logo img{
+            width: 150px;
+            margin-top: 15px;
+        }
+        header .menu{
+            font-size: 12px;
+            margin-left: 42%;
+            padding-top: 10px;
+        }
+        header .menu a{
+            margin-right: 6px;
+            border-bottom: 2px solid transparent;
+        }
+        .main{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .texto{
+            text-align: center;
+            width: 75%;
+            margin: auto;
+        }
+        .texto p{
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .inicio .foto{
+            padding-top: 0;
+            max-width: 100%;
+            margin: auto;
+        }
+        
+        .inicio .foto img{
+            width: 100%;
+            border-radius: 0;
+        }
+        .ropa .contenedor-ropa .vestido{
+            width: 48%;
+        }
+    }
+
+    @media screen and (max-width:400px){
+        header .logo img{
+            width: 120px;
+            margin-top: 15px;
+        }
+        header .menu{
+            font-size: 10px;
+            margin-left: 40%;
+            padding-top: 12px;
+        }
+         .ropa h2{
+             font-size: 25px;
+         }
+
+         .ropa .contenedor-ropa .vestido{
+            width: 45%;
+        }
+
+    }
